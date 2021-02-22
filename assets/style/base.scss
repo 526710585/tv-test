@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0;
+  font-family: fonts;
+  box-sizing: border-box;
+}
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+*:not(input, textarea, img) {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+
+input[type='button'],
+input[type='submit'],
+input[type='file'],
+button {
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-size: 0.24rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+b,
+em {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  outline: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ol,
+td,
+th,
+ul {
+  padding: 0;
+}
+
+dl,
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+.no-font {
+  font-family: 'Microsoft YaHei';
+}

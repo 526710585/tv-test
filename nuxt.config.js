@@ -1,14 +1,22 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
+    script:[{
+      src:'/rem.js'
+    }],
     title: 'tv-test',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'zh-CN'
     },
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      {
+        charset: 'utf-8'
+      },
+      {
+        name: 'viewport',
+        content:
+          'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -21,6 +29,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    // {src : '~/plugins/rem.js',ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

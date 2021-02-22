@@ -2,6 +2,7 @@
   <div class="container">
     <div>
       <Logo />
+      <Test />
       <h1 class="title">
         tv-test
       </h1>

@@ -18,4 +18,13 @@
 
 #### components
 
-组件目录
+用于放置Vue.js组件目录   Vue.js组件没有页面组件的asyncData方法
+
+layouts
+
+布局目录 用于阻止引用的布局组件
+
+
+
+
+
